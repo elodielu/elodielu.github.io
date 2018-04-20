@@ -14,9 +14,9 @@ title: Bingjie Lu
 			
 			<hr>
 			<h2>My Blog</h2>	
-			<font size="+2">
+			<font size="+2"> <p>
 			{% for post in site.posts %}
 			   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			{% endfor %}</font>
+			{% endfor %}</font> </p>
     
 		</div>
