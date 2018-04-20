@@ -9,10 +9,12 @@ title: Bingjie Lu
 			<br>
 			Voila, here I am research the topic I am ethisiatic and also showcase my SQL, R, Python, Tableau and Git skills.<br>
 			<br>	
-			<font size="-1"><a href="/about">Read more about my life...</a></p></font><br>
+			<font size="-2"><a href="/about">Read more about my life...</a></p></font>
+			<br><br>
 			<hr>
 			
-			<font size="+3">
+			<h2>My Blog</h2>
+			<font size="+2">
 			{% for post in site.posts %}
 			   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 			{% endfor %}</font>
