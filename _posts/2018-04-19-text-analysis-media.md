@@ -14,11 +14,12 @@ To show this result is not from photoshop but from data science;
 * Next I am going to present some numbers to convince you 
 * If you still are not buying the story, please go to last section and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, and data wrangling in R, fancy charts in R and Tableau.
 
-Brief intro of the amazing GDELT project: 
-
-GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite)
 
 # Let data speak
+
+#### Brief intro of the amazing GDELT project
+
+GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite)
 <img src="https://elodielu.github.io/picture/data_source.png" width = "800">
 
 # How to make the data speak
