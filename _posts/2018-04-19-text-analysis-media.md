@@ -11,8 +11,8 @@ At least article titles of Washington Post, Wall Street Journal, New York Times,
 <img src="https://elodielu.github.io/picture/wordcloud.png" width = "800">
 
 To show this result is not from photoshop but from data science;
-* Next I am going to present some seemingly convincing numbers 
-* Then how do I get this result from extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, and data wrangling in R, fancy charts in R and Tableau.
+* Next I am going to present some numbers to convince you 
+* If you still are not buying the story, please go to last section and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, and data wrangling in R, fancy charts in R and Tableau.
 
 Brief intro of the amazing GDELT project: 
 
@@ -22,9 +22,10 @@ GDELT Project monitors the world's broadcast, print, and web news from nearly ev
 <img src="https://elodielu.github.io/picture/data_source.png" width = "800">
 
 # How to make the data speak
-## Data extraction From BigQuery(SQL)
+## Data Extraction from BigQuery(SQL)
 
 ## Data Wrangeling(R)
 
 ## Data Visualization(Tableau and R)
 
+#### This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon
