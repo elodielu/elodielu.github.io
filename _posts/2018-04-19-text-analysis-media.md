@@ -17,7 +17,7 @@ Brief intro of the amazing GDELT project:
 GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite)
 
 # Let data speak
-
+<img src="https://elodielu.github.io/picture/data_source.png"  width="1000">
 
 # How to make the data speak
 ## Data extraction From BigQuery(SQL)
@@ -25,3 +25,4 @@ GDELT Project monitors the world's broadcast, print, and web news from nearly ev
 ## Data Wrangeling(R)
 
 ## Data Visualization(Tableau and R)
+
