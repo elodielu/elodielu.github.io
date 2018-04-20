@@ -17,7 +17,7 @@ To show this result is not from photoshop but from data science;
 
 # Let data speak
 
-#### Brief intro of the amazing GDELT project
+**Brief intro of the amazing GDELT project**
 
 GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite) [GDELT schema](https://elodielu.github.io/material/megadata.pdf)
 
@@ -35,4 +35,4 @@ In total I extract 2.9 million records from the US mainstream media to start my 
 
 ## Data Visualization(Tableau and R)
 
-#### This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon
+**This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon**
