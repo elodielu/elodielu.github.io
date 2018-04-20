@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bingjie Lu"
+title: "A website of MINE"
 date: 2018-04-19
 ---
 
