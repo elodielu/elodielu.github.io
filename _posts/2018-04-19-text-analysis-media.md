@@ -15,7 +15,7 @@ To show this result is not from photoshop but from data science;
 * If you still are not buying the story, please go to last section and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
 
 
-# Let data speak
+## Let data speak
 
 **Brief intro of the amazing GDELT project**
 
@@ -28,11 +28,11 @@ In total I extract 2.9 million records from the US mainstream media to start my 
 * Business: Wall Street Journal, Bloomberg
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
 
-# How to make the data speak
-## Data Extraction from BigQuery(SQL)
+## How to make the data speak
+### Data Extraction from BigQuery(SQL)
 
-## Data Wrangeling(R)
+### Data Wrangeling(R)
 
-## Data Visualization(Tableau and R)
+### Data Visualization(Tableau and R)
 
-**This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon**
+**This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon!**
