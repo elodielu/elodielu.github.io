@@ -4,7 +4,7 @@ title: "The American mainstream media is shifting their focus from US/us to Trum
 date: 2018-04-19
 ---
 
-Trump is taking up the world... 
+Trump is getting too much attention... 
 
 At least article titles of Washington Post, Wall Street Journal, New York Times, Bloomberg, New Yorker, Cosmopolitan, and Vogue(Yes, fashion magazine Vogue) are giving more and more attention to Trump, only Trump! 
 
