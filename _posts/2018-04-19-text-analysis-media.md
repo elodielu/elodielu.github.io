@@ -6,4 +6,4 @@ date: 2018-04-19
 
 Trump is taking up the world...
 
-![alt text](https://elodielu.github.io/picture/wordcloud.png "wordcloud")
+![alt text](https://elodielu.github.io/picture/wordcloud.png "wordcloud"| width=200)
