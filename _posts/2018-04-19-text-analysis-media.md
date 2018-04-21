@@ -16,7 +16,7 @@ In 2017, here are what are these publishers talking about.
 
 To show this result is not from photoshop but from data science;
 * Next I am going to present some numbers and charts to convince you 
-* If you still are not buying the story, please go to [this page](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md) and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
+* If you still are not buying the story, please go to [this page(code)](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md) and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
 
 
 ## Let data speak
