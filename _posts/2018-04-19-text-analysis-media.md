@@ -34,7 +34,11 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
 
 ### Deeper look into the data
+Top 10 words of the Year
+
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
+
+In 2017, Top 10 words for these publishers
 
 <img src="https://elodielu.github.io/picture/publisher2.png" width = "1080">
 
