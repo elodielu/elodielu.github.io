@@ -47,7 +47,7 @@ Average “tone” of all documents containing one or more mentions of this even
 
 **Goldstein Scale** captures the theoretical potential impact that type of event will have on the stability of a country. When events happended around the world involve Trump or Obama, what's the impact on the country?
 
-<img src="https://elodielu.github.io/picture/gscore.png" width = "1080">
+<img src="https://elodielu.github.io/picture/gscore.png" width = "400">    <img src="https://elodielu.github.io/picture/gscore2.png" width = "400">
 
 The media is in much favor of Obama, but the events 
 
