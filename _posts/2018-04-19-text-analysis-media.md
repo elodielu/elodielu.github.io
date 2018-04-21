@@ -23,10 +23,12 @@ GDELT Project monitors the world's broadcast, print, and web news from nearly ev
 
 <img src="https://elodielu.github.io/picture/data_source.png" width = "1080">
 
-In total I extract 2.9 million records from the US mainstream media to start my analysis starting 2013. They can be classified into 3 categories for a larger cover of the events;
+In total I extract 2.9 million records from the US mainstream media starting 2013 to start my analysis. They can be classified into 3 categories for a larger cover of the events;
 * Political and general: Wahsington Post, New York Times
 * Business: Wall Street Journal, Bloomberg
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
+
+<img src="https://elodielu.github.io/picture/president.png" width = "1080">
 
 ## How to make the data speak
 ### Data Extraction from BigQuery(SQL)
