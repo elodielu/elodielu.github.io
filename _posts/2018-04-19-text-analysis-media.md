@@ -15,7 +15,7 @@ In 2017, here are what are these publishers talking about.
 <img src="https://elodielu.github.io/picture/publisher.png" width = "1080">
 
 To show this result is not from photoshop but from data science;
-* Next I am going to present some numbers to convince you 
+* Next I am going to present some numbers and charts to convince you 
 * If you still are not buying the story, please go to last section and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
 
 
