@@ -54,5 +54,5 @@ The media is in much favor of Obama, but the events impact of country stability 
 * Mean Goldstein Scale of Trump-related events is **0.72**
 * 95% confident the true difference in means falls in  0.1301 - 0.1962
 
-
+<br><br>
 **This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon!**
