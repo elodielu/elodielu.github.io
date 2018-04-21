@@ -41,11 +41,15 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 ### Dear presidents
 <img src="https://elodielu.github.io/picture/president2.png" width = "1080">
 
-When events happended around the world involve Trump or Obama, how positive are they?
+Average “tone” of all documents containing one or more mentions of this event. **Average tone** can be used as a method of filtering the “context” of events as a subtle measure of the importance of an event and as a proxy for the “impact” of that event. When events happended around the world involve Trump or Obama, how positive are they?
 
 <img src="https://elodielu.github.io/picture/tone2.png" width = "1080">
 
+**Goldstein Scale** captures the theoretical potential impact that type of event will have on the stability of a country. When events happended around the world involve Trump or Obama, what's the impact on the country?
+
 <img src="https://elodielu.github.io/picture/gscore.png" width = "1080">
+
+The media is in much favor of Obama, but the events 
 
 ## How to make the data speak
 ### Data Extraction from BigQuery(SQL)
