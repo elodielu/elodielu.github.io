@@ -33,7 +33,7 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 * Business: Wall Street Journal, Bloomberg
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
 
-### Analysis begins here
+### Deeper look into the data
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
 
