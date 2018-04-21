@@ -67,10 +67,7 @@ washingtonpost <- read.csv("washingtonpost.csv")
 newyorker <- read.csv("newyorker.csv")
 vogue <- read.csv("vogue.csv")
 cosmopolitan <- read.csv("cosmopolitan.csv")
-```
 
-
-```r
 washingtonpost <- washingtonpost %>%
   select(-X) %>%
   mutate(publisher = "WashingtonPost")
@@ -98,14 +95,11 @@ events <- rbind(washingtonpost,bloomberg) %>%
   rbind(nytimes) %>%
   rbind(newyorker) %>%
   rbind(vogue) %>%
-  rbind(cosmopolitan) 
-
-events <- events %>%  filter( Year > 2012)
+  rbind(cosmopolitan) %>%  
+  filter( Year > 2012)
 
 title <- events %>%
   select(GLOBALEVENTID,SQLDATE,publisher,SOURCEURL) 
-
-head(events)
 
 #write.csv(events,'events.csv')
 #write.csv(washingtonpost,'washingtonpost.csv')
@@ -114,18 +108,13 @@ write_rds(events,'events.rda')
 ```
 #### Text Processing
 Parse url to extrat the article titles
-```{r}
+```r
 parsed_address <- url_parse(title$SOURCEURL)
 
 title$path  <- parsed_address$path
 
 title <- title %>%
-  separate(path,into = c("a","b","c","d","e","f","g","h","i","j"), sep = "/", remove = FALSE, extra = "merge", fill = "right")
-
-#title %>%
-#  filter(publisher == "WashingtonPost")
-
-title <- title %>%
+  separate(path,into = c("a","b","c","d","e","f","g","h","i","j"), sep = "/", remove = FALSE, extra = "merge", fill = "right") %>%
   mutate(title = ifelse((publisher != "WashingtonPost") & grepl("-",j),j,
                  ifelse((publisher != "WashingtonPost") & grepl("-",i),i,
                  ifelse((publisher != "WashingtonPost") & grepl("-",h),h,
@@ -149,7 +138,6 @@ title$title <- gsub("-", " ", title$title, fixed=TRUE)
 title$title <- gsub("_", " ", title$title, fixed=TRUE)
 title$title <- gsub(".html", "", title$title, fixed=TRUE)
 title$title <- gsub("%E2%80%8B", "", title$title, fixed=TRUE)
-title$title <- gsub("([0-9]+).*$", "", title$title, fixed=TRUE)
 title$title <- gsub("u s", "us", title$title, fixed=TRUE)
 
 #head(title)
@@ -157,8 +145,9 @@ title$title <- gsub("u s", "us", title$title, fixed=TRUE)
 
 
 **Getting words and bigrams**
+
 Words
-```{r}
+```r
 title2 <- title %>%
   select(GLOBALEVENTID,SQLDATE, publisher,title) %>%
   separate(title,into = c("X1","X2","X3","X4","X5","X6","X7","X8","X9","X10",
@@ -175,7 +164,6 @@ title3 <- title3 %>%
   mutate(SQLDATE = as.Date(as.character(SQLDATE), format = "%Y%m%d")) %>%
   mutate(Year = format(SQLDATE, "%Y")) %>%
   select(-variable)
-
 ```
 
 ## Bigram
@@ -201,52 +189,20 @@ title5 <- rbind(title4,title3) #combine the words and bigram
 #head(title4,20)
 ```
 
-## Wordcloud of one-word and bigram
-```{r}
+### Data Visualization(Tableau and R)
+
+#### Wordcloud of one-word and bigram
+```r
 title5 %>%
   group_by(Year, value) %>%
   summarise(freq = n()) %>%
   ungroup() %>%
-  filter(Year == "2014") %>%
-  select(-Year) %>%
-  arrange(desc(freq)) %>%
-  top_n(200) %>%
-  wordcloud2(color = "random-light")
-
-title5 %>%
-  group_by(Year, value) %>%
-  summarise(freq = n()) %>%
-  ungroup() %>%
-  filter(Year == "2015") %>%
-  select(-Year) %>%
-  arrange(desc(freq)) %>%
-  top_n(200) %>%
-  wordcloud2(color = "random-light")
-
-
-title5 %>%
-  group_by(Year, value) %>%
-  summarise(freq = n()) %>%
-  ungroup() %>%
-  filter(Year == "2016") %>%
-  select(-Year) %>%
-  arrange(desc(freq)) %>%
-  top_n(200) %>%
-  wordcloud2(color = "random-light")
-
-
-title5 %>%
-  group_by(Year, value) %>%
-  summarise(freq = n()) %>%
-  ungroup() %>%
-  filter(Year == "2017") %>%
+  filter(Year == "2014") %>% #Change year to get all yearly wordcloud
   select(-Year) %>%
   arrange(desc(freq)) %>%
   top_n(200) %>%
   wordcloud2(color = "random-light")
 
 ```
-
-### Data Visualization(Tableau and R)
 
 **This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon!**
