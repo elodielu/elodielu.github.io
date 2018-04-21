@@ -36,7 +36,7 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 ### Deeper look into the data
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
-
+<img src="https://elodielu.github.io/picture/publisher2.png" width = "1080">
 
 ### Dear presidents
 <img src="https://elodielu.github.io/picture/president2.png" width = "1080">
