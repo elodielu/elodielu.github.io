@@ -47,12 +47,12 @@ Average “tone” of all documents containing one or more mentions of this even
 
 **Goldstein Scale** captures the theoretical potential impact that type of event will have on the stability of a country. When events happended around the world involve Trump or Obama, what's the impact on the country?
 
-<img src="https://elodielu.github.io/picture/gscore.png" width = "540">    <img src="https://elodielu.github.io/picture/gscore2.png" width = "540">
+<img src="https://elodielu.github.io/picture/gscore.png" width = "500">    <img src="https://elodielu.github.io/picture/gscore2.png" width = "500">
 
 The media is in much favor of Obama, but the events impact of country stability does not seem to be a clear difference big enough to caught by human eyes. Tjerefore, I ran a statistical test. Well the t test show that there is significant difference between the Goldstein Scale of obama-related and trump-related events.
 * Mean Goldstein Scale of Obama-related events is **0.88**
 * Mean Goldstein Scale of Trump-related events is **0.72**
-* 95% confident the true difference in means falls in  0.1301-0.1962
+* 95% confident the true difference in means falls in  0.1301 - 0.1962
 
 ## How to make the data speak
 ### Data Extraction from BigQuery(SQL)
