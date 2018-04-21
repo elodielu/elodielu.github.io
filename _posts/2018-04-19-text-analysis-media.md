@@ -10,6 +10,10 @@ At least article titles of Washington Post, Wall Street Journal, New York Times,
 
 <img src="https://elodielu.github.io/picture/wordcloud.png" width = "1080">
 
+In 2017, here are what are these publishers talking about.
+
+<img src="https://elodielu.github.io/picture/publisher.png" width = "1080">
+
 To show this result is not from photoshop but from data science;
 * Next I am going to present some numbers to convince you 
 * If you still are not buying the story, please go to last section and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
@@ -32,12 +36,16 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 ### Analysis begins here
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
+
+
 ### Dear presidents
 <img src="https://elodielu.github.io/picture/president2.png" width = "1080">
 
 When events happended around the world involve Trump or Obama, how positive are they?
 
 <img src="https://elodielu.github.io/picture/tone2.png" width = "1080">
+
+<img src="https://elodielu.github.io/picture/gscore.png" width = "1080">
 
 ## How to make the data speak
 ### Data Extraction from BigQuery(SQL)
