@@ -21,6 +21,7 @@ To show this result is not from photoshop but from data science;
 
 GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite) [GDELT schema](https://elodielu.github.io/material/megadata.pdf)
 
+### Data source
 <img src="https://elodielu.github.io/picture/data_source.png" width = "1080">
 
 In total I extract 2.9 million records from the US mainstream media starting 2013 to start my analysis. They can be classified into 3 categories for a larger cover of the events;
@@ -29,6 +30,8 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
 
 <img src="https://elodielu.github.io/picture/president.png" width = "1080">
+
+<img src="https://elodielu.github.io/picture/tone.png" width = "1080">
 
 ## How to make the data speak
 ### Data Extraction from BigQuery(SQL)
