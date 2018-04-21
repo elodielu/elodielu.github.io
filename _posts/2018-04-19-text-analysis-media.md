@@ -16,14 +16,14 @@ In 2017, here are what are these publishers talking about.
 
 To show this result is not from photoshop but from data science;
 * Next I am going to present some numbers and charts to convince you 
-* If you still are not buying the story, please go to [this page(code)](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md) and check how did I get this result through extract data from [GDELT](https://www.gdeltproject.org/) dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
+* If you still are not buying the story, please go to [this page(code)](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md) and check how did I get this result through extract data from  GDELT dataset in Google's BigQuery, data wrangling in R, and fancy charts in R and Tableau.
 
 
 ## Let data speak
 
 **Brief intro of the amazing GDELT project**
 
-GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite) [GDELT schema](https://elodielu.github.io/material/megadata.pdf)
+[GDELT](https://www.gdeltproject.org/) Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.(quote form their webisite) [GDELT schema](https://elodielu.github.io/material/megadata.pdf)
 
 ### Data source
 <img src="https://elodielu.github.io/picture/data_source.png" width = "1080">
