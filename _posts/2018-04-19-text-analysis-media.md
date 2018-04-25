@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Biggest Star in the world - Donald Trump"
-date: 2018-04-19
+date: 2018-04-24
 ---
 
 Trump is getting too much attention...Errr, negative ones 
@@ -43,7 +43,7 @@ Top 10 words of the Year
 
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
-The above chart indicates that Trump is getting way more attention than Obama. Using the word US as refenrence, which has a constant mention around 30k-40k. To be more relative, we are taking Obama's 2015 mention to compare wih Trump's 2017 mentions, as these are the years whey are in power and not influenced by election. Well, the chart below gives a clear image on the number of mentions of Trump and Obama over the years as well as the percentage of total articles(2.9 million records I exreacted) they appear.
+The above chart indicates that Trump is getting way more attention than Obama. Using the word US as refenrence, which has a constant mention around 30k-40k. To be more relative, we are taking Obama's 2015 mention to compare wih Trump's 2017 mentions, as these are the years whey are in power and not influenced by election. Well, the chart below gives a clear image on the number of mentions of Trump and Obama over the years as well as the percentage of total articles(2.9 million records I extracted) they appear.
 
 We can see that Trump(2017) is getting as much as **5 times** as Obama(2015). And Obama only get mention**below 5%** among the newsfeeds, while Trump is reaching **20%**.
 
@@ -71,6 +71,12 @@ The media is in much favor of Obama, but the events impact of country stability 
 * Mean Goldstein Scale of Obama-related events is **0.88**
 * Mean Goldstein Scale of Trump-related events is **0.72**
 * 95% confident the true difference in means falls in  0.1301 to 0.1962
+
+Obama is doing slightly better in involving with more good events that bring stability to the related country.
+
+### We are not sure whether Trump is a good president or not yet, but big data tells us that Trump is definitely not a lovable president, especially compared to Obama!
+
+<br>
 
 [Link to the code](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md)
 
