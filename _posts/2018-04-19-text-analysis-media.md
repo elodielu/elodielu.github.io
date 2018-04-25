@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Pointed out the Biggest Star in the World - Donald Trump"
+title: "Data Pointed out the Biggest Negative-Reviewed Star in the World - Donald Trump"
 date: 2018-04-24
 ---
 
@@ -74,7 +74,7 @@ The media is in much favor of Obama, but the events impact of country stability 
 
 Obama is doing slightly better in involving with more good events that bring stability to the related country.
 
-### We are not sure whether Trump is a good president or not yet, but big data tells us that Trump is definitely not a lovable president, especially compared to Obama!
+#### We are not sure whether Trump is a good president or not yet, but big data tells us that Trump is definitely not a lovable president, especially compared to Obama!
 
 <br>
 
