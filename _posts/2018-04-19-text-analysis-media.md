@@ -2,6 +2,7 @@
 layout: post
 title: "Data Pointed out the Biggest, Negative-Reviewed Star in the World - Donald Trump"
 date: 2018-04-24
+author: Bingjie Lu
 ---
 
 Trump is getting too much attention...Errr, negative ones 
