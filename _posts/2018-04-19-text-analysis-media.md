@@ -6,7 +6,7 @@ date: 2018-04-24
 
 Trump is getting too much attention...Errr, negative ones 
 
-I started my analysis in analyzing article titles of the US mainstream publishers to see what the world concernes over the year and found this interesting fact that I would like dig more and share.  **Washington Post, Wall Street Journal, New York Times, Bloomberg, New Yorker, Cosmopolitan, and Vogue(Yes, fashion magazine Vogue) are giving more and more attention to Trump, only Trump!** 
+I started my analysis in parsing article titles of the US mainstream publishers to see what the world concerns over the year and found this interesting fact that I would like to dig more and share.  **Washington Post, Wall Street Journal, New York Times, Bloomberg, New Yorker, Cosmopolitan, and Vogue(Yes, fashion magazine Vogue) are giving more and more attention to Trump, only Trump!** 
 
 <img src="https://elodielu.github.io/picture/wordcloud.png" width = "1080">
 
