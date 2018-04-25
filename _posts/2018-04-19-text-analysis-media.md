@@ -81,4 +81,4 @@ Obama is doing slightly better in involving with more good events that bring sta
 [Link to the code](https://github.com/elodielu/FxPrediction/blob/master/text_analysis.md)
 
 <br><br>
-**This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utilize the global event data in foreign exchange prediction with LSTM. Coming soon!**
+**This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utilize the global events data in foreign exchange prediction with LSTM. Coming soon!**
