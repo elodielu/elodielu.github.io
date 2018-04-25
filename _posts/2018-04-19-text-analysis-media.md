@@ -11,7 +11,7 @@ I started my analysis in parsing article titles of the US mainstream publishers 
 
 <img src="https://elodielu.github.io/picture/wordcloud.png" width = "1080">
 
-In 2017, here are what are these publishers talking about.
+In 2017, what are these publishers talking about
 
 <img src="https://elodielu.github.io/picture/publisher.png" width = "1080">
 
