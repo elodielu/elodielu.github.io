@@ -34,20 +34,31 @@ In total I extract 2.9 million records from the US mainstream media starting 201
 * Fashion and Culture: Vogue, Cosmopolitan, and New Yorker
 
 ### Deeper look into the data
-Top 10 words of the Year
-
-<img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
 In 2017, Top 10 words for these publishers
 
 <img src="https://elodielu.github.io/picture/publisher2.png" width = "1080">
 
-### Dear presidents
+Top 10 words of the Year
+
+<img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
+
+The above chart indicates that Trump is getting way more attention than Obama. Using the word US as refenrence, which has a constant mention around 30k-40k. To be more relative, we are taking Obama's 2015 mention to compare wih Trump's 2017 mentions, as these are the years whey are in power and not influenced by election. Well, the chart below
+
+
 <img src="https://elodielu.github.io/picture/president2.png" width = "1080">
+
+### More interesting facts when the presidents are mentioned
 
 Average “tone” of all documents containing one or more mentions of this event. **Average tone** can be used as a method of filtering the “context” of events as a subtle measure of the importance of an event and as a proxy for the “impact” of that event. When events happended around the world involve Trump or Obama, how positive are they?
 
 <img src="https://elodielu.github.io/picture/tone2.png" width = "1080">
+
+* Mean Average tone of Obama-related events is **0.19**
+* Mean Average tone of Trump-related events is **-2.01**
+* 95% confident the true difference in means falls in  -2.2246 to -2.1821
+
+The common range for average tone is from -10 to 10, President Trump is really not doing good in this round.
 
 **Goldstein Scale** captures the theoretical potential impact that type of event will have on the stability of a country. When events happended around the world involve Trump or Obama, what's the impact on the country?
 
@@ -56,7 +67,7 @@ Average “tone” of all documents containing one or more mentions of this even
 The media is in much favor of Obama, but the events impact of country stability does not seem to be a clear difference big enough to caught by human eyes. Tjerefore, I ran a statistical test. Well the t test show that there is significant difference between the Goldstein Scale of obama-related and trump-related events.
 * Mean Goldstein Scale of Obama-related events is **0.88**
 * Mean Goldstein Scale of Trump-related events is **0.72**
-* 95% confident the true difference in means falls in  0.1301 - 0.1962
+* 95% confident the true difference in means falls in  0.1301 to 0.1962
 
 <br><br>
 **This is just an interesting by-product when I am exploring the GDELT dataset. My plan is to utlize the global event data in foreign exchange prediction with LSTM. Coming soon!**
