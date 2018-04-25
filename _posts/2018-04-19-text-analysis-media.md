@@ -59,7 +59,7 @@ Average “tone” of all documents containing one or more mentions of this even
 * 95% confident the true difference in means falls in  -2.2246 to -2.1821
 
 The common range for average tone is from -10 to 10, President Trump is really not doing good in this round.
-
+<br>
 **Goldstein Scale** captures the theoretical potential impact that type of event will have on the stability of a country. When events happended around the world involve Trump or Obama, what's the impact on the country?
 
 <img src="https://elodielu.github.io/picture/gscore.png" width = "500">    <img src="https://elodielu.github.io/picture/gscore2.png" width = "500">
