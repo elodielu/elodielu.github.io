@@ -43,8 +43,9 @@ Top 10 words of the Year
 
 <img src="https://elodielu.github.io/picture/wordcount.png" width = "1080">
 
-The above chart indicates that Trump is getting way more attention than Obama. Using the word US as refenrence, which has a constant mention around 30k-40k. To be more relative, we are taking Obama's 2015 mention to compare wih Trump's 2017 mentions, as these are the years whey are in power and not influenced by election. Well, the chart below
+The above chart indicates that Trump is getting way more attention than Obama. Using the word US as refenrence, which has a constant mention around 30k-40k. To be more relative, we are taking Obama's 2015 mention to compare wih Trump's 2017 mentions, as these are the years whey are in power and not influenced by election. Well, the chart below gives a clear image on the number of mentions of Trump and Obama over the years as well as the percentage of total articles(2.9 million records I exreacted) they appear.
 
+We can see that Trump(2017) is getting as much as **5 times** as Obama(2015). And Obama only get mention**below 5%** among the newsfeeds, while Trump is reaching **20%**.
 
 <img src="https://elodielu.github.io/picture/president2.png" width = "1080">
 
