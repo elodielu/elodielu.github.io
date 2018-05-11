@@ -4,6 +4,15 @@ title: "Data Pointed out the Biggest, Negative-Reviewed Star in the World - Dona
 date: 2018-04-24
 author: Bingjie Lu
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119120903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119120903-1');
+</script>
 
 Trump is getting too much attention...Errr, negative ones 
 
